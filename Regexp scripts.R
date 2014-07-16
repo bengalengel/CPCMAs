@@ -18,3 +18,5 @@ class(vectc)
 xnx=grepl("pY.N.",vectc)
 ##write to new file
 write.table(xnx,"grb2motif.csv",sep=',',col.names=F,row.names=F)
+
+
